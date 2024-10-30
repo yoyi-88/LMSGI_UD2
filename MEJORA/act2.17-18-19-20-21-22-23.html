@@ -1,0 +1,49 @@
+<h1>Registro de Cliente - Muebles Elegancia</h1>
+<form action="mailto:contacto@muebles-elegancia.com" method="post" enctype="text/plain">
+    <p>
+        <li>Primer paso: <br>
+            Introduce tu Nombre y Apellidos:<input type="text" name="nombre_apellidos" size="30"></li><br>
+        <li>Segundo paso: <br>
+            Introduce tu Número de Cliente (ID):<input type="text" name="numero_cliente" size="10"></li><br>
+        <li>Tercer paso: <br>
+            Dirección de correo electrónico: <input type="text" name="correo" size="35"></li><br>
+        <li>Cuarto paso: <br>
+            ¿Qué tipo de muebles estás buscando? <input type="text" name="preferencias_muebles" size="70"></li><br>
+    </p>
+    <p>
+        <li>Quinto paso</li>
+        ¿Cuál es tu rango de presupuesto aproximado?
+        <select name="presupuesto" size="1">
+            <option>Menos de $500</option>
+            <option>Entre $500 y $1000</option>
+            <option selected>Entre $1000 y $2000</option>
+            <option>Más de $2000</option>
+        </select>
+    </p>
+
+    <p>
+        <li>Sexto paso</li>
+        ¿Qué tipo de estilo prefieres para tus muebles?
+    <blockquote>
+        <p><input type="checkbox" name="estilo_moderno" value="Moderno"> Moderno<br>
+            <input type="checkbox" name="estilo_clasico" value="Clásico"> Clásico<br>
+            <input type="checkbox" name="estilo_rustico" value="Rústico"> Rústico<br>
+            <input type="checkbox" name="estilo_minimalista" value="Minimalista"> Minimalista<br>
+            <input type="checkbox" name="estilo_industrial" value="Industrial"> Industrial<br>
+        </p>
+    </blockquote>
+    </p>
+    <p>
+        <li>Séptimo paso</li>
+        ¿Tienes alguna experiencia previa en la compra de muebles personalizados?
+    </p>
+    <blockquote>
+        <p><input type="radio" name="experiencia_personalizacion" value="Sí">Sí<br>
+            <input type="radio" name="experiencia_personalizacion" value="No">No<br>
+        </p>
+    </blockquote>
+    </p>
+    
+    <p>&nbsp;<input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+    </p>
+</form>
